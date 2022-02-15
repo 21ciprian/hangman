@@ -72,3 +72,10 @@ const handleGuess = selectedLetter => {
 const displayHangman = () => {
 	document.querySelector('#hangman-img').src = `./assets/${mistakes}.svg`
 }
+const handleGameWon = () => {
+	if (cityName === city) {
+		message.innerHTML = '🥳🎉 WELL DONE !!! 🎉🥳'
+		message.style.fontSize = '2.5rem'
+		message.style.color = '#038603'
+	}
+}
