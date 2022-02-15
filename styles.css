@@ -20,3 +20,8 @@ article {
 	display: flex;
 	margin: auto;
 }
+article .fact {
+	width: 50%;
+	background-color: #ac3636;
+	padding: 0.5rem;
+}
