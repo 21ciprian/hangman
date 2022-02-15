@@ -22,3 +22,7 @@ let mistakes = 0
 let guessedLettersArray = []
 let cityName = null
 let message = document.querySelector('#keyboard')
+
+const wordGenerator = () => {
+	city = cities[Math.floor(Math.random() * cities.length)]
+}
