@@ -26,3 +26,28 @@ let message = document.querySelector('#keyboard')
 const wordGenerator = () => {
 	city = cities[Math.floor(Math.random() * cities.length)]
 }
+const keyboardGenerator = () => {
+	let keyboard = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+		.split('')
+		.map(
+			key =>
+				`
+      <button
+        class="btn"
+        id='` +
+				key +
+				`'
+        onClick="handleGuess('` +
+				key +
+				`')"
+      >
+        ` +
+				key +
+				`
+      </button>
+    `
+		)
+		.join('')
+
+	document.querySelector('#keyboard').innerHTML = keyboard
+}
