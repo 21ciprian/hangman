@@ -62,3 +62,13 @@ article .game h3 {
 	color: #fff;
 	border-radius: 0.33333rem;
 }
+article .game img {
+	margin: 2rem auto;
+	width: 30%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
