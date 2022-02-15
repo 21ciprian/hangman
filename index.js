@@ -109,3 +109,4 @@ const resetGame = () => {
 	displayMistakes()
 	keyboardGenerator()
 }
+document.querySelector('.reset-btn').addEventListener('click', resetGame)
