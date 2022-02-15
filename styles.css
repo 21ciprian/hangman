@@ -34,3 +34,16 @@ article .fact h3 {
 	border: 0.2rem solid #ac3636;
 	border-radius: 0.33333rem;
 }
+article .fact p {
+	margin: 2rem auto;
+	width: 80%;
+	letter-spacing: 0.11111rem;
+	line-height: 2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #fff;
+}
