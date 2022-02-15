@@ -87,3 +87,11 @@ const handleGameLost = () => {
 		message.style.color = 'red'
 	}
 }
+const guessedCityName = () => {
+	cityName = city
+		.split('')
+		.map(letter => (guessedLettersArray.indexOf(letter) >= 0 ? letter : ' _ '))
+		.join('')
+
+	document.querySelector('#city-name').innerHTML = cityName
+}
