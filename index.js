@@ -51,3 +51,21 @@ const keyboardGenerator = () => {
 
 	document.querySelector('#keyboard').innerHTML = keyboard
 }
+const handleGuess = selectedLetter => {
+	guessedLettersArray.indexOf(selectedLetter) === -1
+		? guessedLettersArray.push(selectedLetter)
+		: null
+	document.getElementById(selectedLetter).setAttribute('disabled', true)
+	document.getElementById(selectedLetter).style.backgroundColor = 'white'
+	document.getElementById(selectedLetter).style.color = '#ac3636'
+
+	if (city.indexOf(selectedLetter) >= 0) {
+		guessedCityName()
+		handleGameWon()
+	} else if (city.indexOf(selectedLetter) === -1) {
+		mistakes++
+		displayMistakes()
+		handleGameLost()
+		displayHangman()
+	}
+}
