@@ -95,3 +95,6 @@ const guessedCityName = () => {
 
 	document.querySelector('#city-name').innerHTML = cityName
 }
+const displayMistakes = () => {
+	document.querySelector('#mistakes').innerHTML = mistakes
+}
