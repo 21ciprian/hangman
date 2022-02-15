@@ -54,3 +54,11 @@ article .game {
 	background-color: #fff;
 	border: 0.2rem solid #ac3636;
 }
+article .game h3 {
+	text-align: center;
+	margin: auto;
+	padding: 0.5rem;
+	background-color: #ac3636;
+	color: #fff;
+	border-radius: 0.33333rem;
+}
