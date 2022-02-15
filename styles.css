@@ -132,3 +132,15 @@ article .btn:hover {
 	color: #ac3636;
 	border: 0.1rem solid #ac3636;
 }
+@media screen and (max-width: 778px) {
+	article {
+		display: block;
+		width: 100%;
+	}
+	article .fact {
+		width: 100%;
+	}
+	article .game {
+		width: 100%;
+	}
+}
