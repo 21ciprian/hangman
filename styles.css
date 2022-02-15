@@ -72,3 +72,8 @@ article .game img {
 	-ms-flex-align: center;
 	align-items: center;
 }
+article .game p {
+	text-align: center;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+}
