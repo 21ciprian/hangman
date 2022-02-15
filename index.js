@@ -98,3 +98,14 @@ const guessedCityName = () => {
 const displayMistakes = () => {
 	document.querySelector('#mistakes').innerHTML = mistakes
 }
+const resetGame = () => {
+	mistakes = 0
+	guessedLettersArray = []
+	document.querySelector('#hangman-img').src = './assets/0.svg'
+	document.querySelector('.reset-btn').innerHTML = 'RESET'
+
+	wordGenerator()
+	guessedCityName()
+	displayMistakes()
+	keyboardGenerator()
+}
