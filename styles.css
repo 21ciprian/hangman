@@ -8,3 +8,7 @@ body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body h1 {
+	text-align: center;
+	margin: 1.5rem auto;
+}
