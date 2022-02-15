@@ -105,3 +105,30 @@ article .btn:hover {
 	background-color: #fff;
 	color: #ac3636;
 }
+.reset-btn {
+	background-color: #ac3636;
+	color: #fff;
+	padding: 0.5rem;
+	border-radius: 0.33333rem;
+	font-size: 1rem;
+	margin: 0.4rem auto;
+	width: 20rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	letter-spacing: 0.4rem;
+	font-weight: 700;
+	font-size: 2rem;
+	border: 0.1rem solid #ac3636;
+	outline: none;
+}
+
+.reset-btn:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #ac3636;
+	border: 0.1rem solid #ac3636;
+}
