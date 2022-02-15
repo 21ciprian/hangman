@@ -91,3 +91,17 @@ article #keyboard {
 	flex-wrap: wrap;
 	margin: 0.4rem auto;
 }
+article .btn {
+	background-color: #ac3636;
+	color: #fff;
+	width: 2rem;
+	height: 2.5rem;
+	border-radius: 0.33333rem;
+	margin: 0.1rem;
+	font-size: 1.5rem;
+}
+article .btn:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #ac3636;
+}
