@@ -16,3 +16,9 @@ const cities = [
 	'CAMBRIDGE',
 	'OXFORD',
 ]
+let city = ''
+let failedAttemps = 6
+let mistakes = 0
+let guessedLettersArray = []
+let cityName = null
+let message = document.querySelector('#keyboard')
