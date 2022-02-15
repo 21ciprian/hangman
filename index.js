@@ -79,3 +79,11 @@ const handleGameWon = () => {
 		message.style.color = '#038603'
 	}
 }
+const handleGameLost = () => {
+	if (mistakes === failedAttemps) {
+		document.querySelector('#city-name').innerHTML = 'The city was: ' + city
+		message.innerHTML = 'NOOPE...😞 TRY AGAIN...🤞🤞'
+		message.style.fontSize = '2.5rem'
+		message.style.color = 'red'
+	}
+}
