@@ -69,3 +69,6 @@ const handleGuess = selectedLetter => {
 		displayHangman()
 	}
 }
+const displayHangman = () => {
+	document.querySelector('#hangman-img').src = `./assets/${mistakes}.svg`
+}
