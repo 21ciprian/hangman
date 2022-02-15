@@ -25,3 +25,12 @@ article .fact {
 	background-color: #ac3636;
 	padding: 0.5rem;
 }
+article .fact h3 {
+	text-align: center;
+	margin: auto;
+	padding: 0.5rem;
+	background-color: #fff;
+	color: #ac3636;
+	border: 0.2rem solid #ac3636;
+	border-radius: 0.33333rem;
+}
