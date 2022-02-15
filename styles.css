@@ -47,3 +47,10 @@ article .fact p {
 	align-items: center;
 	color: #fff;
 }
+article .game {
+	width: 50%;
+	position: relative;
+	padding: 0.5rem;
+	background-color: #fff;
+	border: 0.2rem solid #ac3636;
+}
